@@ -16,10 +16,12 @@ build:
 
 requirements:
   host:
+    - python >=2.6
     - pip
-    - python
+    - setuptools_scm >=3.4
+    - toml
   run:
-    - python
+    - python >=2.6
 
 test:
   imports:
@@ -29,10 +31,8 @@ about:
   home: https://pypi.python.org/pypi/tqdm
   license: MPL-2.0
   license_family: MOZILLA
-  summary: doc to argparse driven by docopt
   license_file: LICENCE
-  dev_url: https://github.com/casperdcl/argopt
-  doc_url: https://github.com/casperdcl/argopt
+  summary: doc to argparse driven by docopt
 
 extra:
   recipe-maintainers:
