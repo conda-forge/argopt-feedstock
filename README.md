@@ -1,15 +1,17 @@
 About argopt
 ============
 
-Home: https://github.com/casperdcl/argopt
+Home: https://pypi.python.org/pypi/tqdm
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/argopt-feedstock/blob/master/LICENSE.txt)
 
 Summary: doc to argparse driven by docopt
 
+Development: https://github.com/casperdcl/argopt
 
+Documentation: https://github.com/casperdcl/argopt
 
 Current build status
 ====================
