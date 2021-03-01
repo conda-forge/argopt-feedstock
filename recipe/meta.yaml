@@ -1,5 +1,5 @@
 {% set name = "argopt" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 55913a15099d4cecec5493e1b8976a90bf48a0ad3d174d42a44ba487ac385abf
+  sha256: aa7ba8d58abed4f625138a1608d70a4f6bd80322c76d1aec47f43270e73c7a79
 
 build:
   noarch: python
